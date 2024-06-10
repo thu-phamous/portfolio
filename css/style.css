@@ -1,5 +1,6 @@
 body {
-  background-color: #FFFAE6
+  background-color: #FFFAE6;
+  overflow: hidden;
 }
 
 h1 {
@@ -17,9 +18,9 @@ h2 {
   margin-top: 0px;
   color: #002379;
 }
-.box{
+/* .box{
   display: flex;
-}
+} */
 
 .left-card {
   display: flex;
@@ -27,10 +28,14 @@ h2 {
   justify-content:flex-start;
   align-items: center;
   width: 50%;
-  height: 100vh;
+  /* height: 100vh; */
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.sticky {
+  position: sticky;
+  top: 0;
+
 }
 
 .right-card {
@@ -42,7 +47,6 @@ h2 {
   height: 100vh;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .nav-link {
