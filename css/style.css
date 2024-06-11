@@ -4,8 +4,8 @@ body {
 
 h1 {
   font-family: "Inter", sans-serif;
-  font-weight: 600;
-  font-size: 25px;
+  font-weight: 800;
+  font-size: 30px;
   margin-bottom: 10px;
   color: #1640D6;
 }
@@ -19,15 +19,35 @@ h2 {
   text-align: center;
 }
 
+h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  margin-right:20px;
+  color: #1640D6;
+  margin-top: 4px;
+  margin-bottom: 20px;
+  white-space: nowrap;
+}
+
 p {
   font-family: "Inter", sans-serif;
   font-weight: 300;
   font-size: 14px;
   color: #002379;
+  line-height: 1.5;
+  margin-top:0;
+  margin-bottom: 20px;
 }
 
 .box{
   display: flex;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .left-card {
@@ -56,8 +76,7 @@ p {
 .right-card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
   width: 50%;
   /* height: 100vh; */
   padding: 20px;
