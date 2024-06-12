@@ -1,59 +1,23 @@
+@import url(./components/navbar.css);
+@import url(./components/profile-card.css);
+@import url(./components/job-card.css);
+@import url(./components/project-card.css);
+
 body {
   /* background-color: #FFC7C7; */
   background: linear-gradient(#FFC7C7, #ED9ED6);
 }
 
-h1 {
+:root {
   font-family: "Inter", sans-serif;
-  font-weight: 800;
-  font-size: 30px;
-  margin-bottom: 10px;
-  color: #1640D6;
-}
-
-h2 {
-  font-family: "Inter", sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  margin-top: 0px;
-  color: #1640D6;
-  text-align: center;
-}
-
-h3 {
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
-  font-size: 15px;
-  margin-top: 0px;
-  margin-bottom: 5px;
-  color: #002379;
-}
-
-h4 {
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
-  font-size: 12px;
-  margin-right:20px;
-  color: #1640D6;
-  margin-top: 2px;
-  margin-bottom: 20px;
-  white-space: nowrap;
-}
-ul {
-  font-family: "Inter", sans-serif;
-  font-weight: 300;
-  font-size: 14px;
-  color: #002379;
-  line-height: 1.5;
-  margin-top:0;
-  margin-bottom: 15px;
+  --primary-color: #002379;
+  --secondary-color: #1640D6;
 }
 
 p {
-  font-family: "Inter", sans-serif;
   font-weight: 300;
   font-size: 14px;
-  color: #002379;
+  color: var(--primary-color);
   line-height: 1.5;
   margin-top:0;
   margin-bottom: 15px;
@@ -61,12 +25,6 @@ p {
 
 .box{
   display: flex;
-}
-
-.info-card {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
 }
 
 .left-card {
@@ -84,79 +42,10 @@ p {
   top: 0;
 }
 
-.image {
-  width: auto;
-  height: 90px;
-  border-radius: 50%;
-  border: 2px solid #7071E8;
-  margin-top: 10px;
-}
-
-.right-card {
+.info-description-card {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   width: 50%;
-  /* height: 100vh; */
   padding: 20px;
-}
-
-.nav-link {
-  text-decoration: none;
-  color: #002379;
-  font-family: "Inter", sans-serif;
-}
-
-.navbar li {
-  display: inline;
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
-  font-size: 12px;
-  color: #002379;
-}
-
-.navbar {
-  padding: 0px;
-}
-
-.nav-link-ex {
-  margin-right: 20px;
-  margin-left: 20px;
-  text-decoration: none;
-  color: #002379;
-}
-
-/* .nav-card {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  max-width: 300px;
-  width: 300px;
-  height: 20px;
-  border-radius: 10px;
-  padding: 20px;
-  background-color: #C683D7;
-} */
-
-.info-card {
-  margin-top: 20px;
-}
-
-.info-card li {
-  font-family: "Inter", sans-serif;
-  font-size: 10px;
-  color: white;
-  font-weight: 600;
-  margin: 3px;
-  background: #7071E8;
-  padding: 10px;
-  width:fit-content;
-  border-radius: 5px;
-  list-style-type: none;
-  display: inline-block;
-}
-
-.info-card ul {
-  padding: 0;
 }

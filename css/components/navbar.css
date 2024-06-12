@@ -1,0 +1,29 @@
+.navbar {
+  padding: 0px;
+  font-weight: 300;
+  font-size: 14px;
+  color: var(--primary-color);
+  line-height: 1.5;
+  margin-top:0;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.navbar li {
+  display: inline;
+  font-weight: 600;
+  font-size: 12px;
+  color: var(--primary-color);
+}
+
+.nav-link-ex {
+  margin-right: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+  color: var(--primary-color);
+}
