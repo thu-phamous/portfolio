@@ -1,12 +1,12 @@
 .fa-brands {
   font-size: 20px;
-  color: #7071E8;
+  color: var(--primary-color);
   display: flex;
   justify-content: space-between;
 }
 
 .fa-brands:hover {
-  color: #2c2cd7;
+  color: var(--hover-color);
 }
 
 .fa-linkedin {
