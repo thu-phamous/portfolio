@@ -13,6 +13,7 @@ body {
   font-family: "Inter", sans-serif;
   --primary-color: #002379;
   --secondary-color: #1640D6;
+  --hover-color: #615EFC;
 }
 
 p {
