@@ -34,6 +34,7 @@ p {
   align-items: center;
   width: 35%;
   height: 100vh;
+  box-sizing: border-box;
   padding: 20px;
 }
 
