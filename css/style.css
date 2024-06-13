@@ -2,6 +2,7 @@
 @import url(./components/profile-card.css);
 @import url(./components/job-card.css);
 @import url(./components/project-card.css);
+@import url(./components/socialmedia.css);
 
 body {
   /* background-color: #FFC7C7; */

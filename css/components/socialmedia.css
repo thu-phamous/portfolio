@@ -1,0 +1,19 @@
+.fa-brands {
+  font-size: 20px;
+  color: #7071E8;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-brands:hover {
+  color: #5555c8;
+}
+
+.fa-linkedin {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.social-media-card {
+  margin-top: 20px;
+}
