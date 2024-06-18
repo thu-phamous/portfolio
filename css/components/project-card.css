@@ -55,3 +55,11 @@
 .project-card ul {
   padding: 0;
 }
+
+.image-project-card {
+  width: 115px;
+  height: 67px;
+  margin-top: 4px;
+  margin-right:20px;
+  border-radius: 5px;
+}

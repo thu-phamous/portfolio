@@ -4,6 +4,10 @@
   justify-content: flex-start;
 }
 
+.headline-card{
+  font-size: 20px;
+}
+
 .job-card h4 {
   font-weight: 600;
   font-size: 12px;
