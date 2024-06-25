@@ -41,11 +41,11 @@
 
 .project-card li {
   font-size: 10px;
-  color: white;
+  color: var(--hover-color);
   font-weight: 600;
-  margin: 3px;
-  background: #7071E8;
-  padding: 10px;
+  margin: 2px;
+  border: 1px solid var(--hover-color);
+  padding: 7px;
   width:fit-content;
   border-radius: 5px;
   list-style-type: none;

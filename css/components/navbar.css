@@ -24,7 +24,7 @@
   text-decoration: none;
   color: var(--primary-color);
   color: inherit;
-  margin-left: 20px;
+  margin-left: 10px;
   position: relative;
   overflow: hidden;
   transition: color 300ms;
