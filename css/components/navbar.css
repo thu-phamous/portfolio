@@ -15,7 +15,7 @@
 .navbar li {
   display: inline;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 14px;
   color: var(--primary-color);
 }
 
@@ -24,7 +24,7 @@
   text-decoration: none;
   color: var(--primary-color);
   color: inherit;
-  margin-left: 10px;
+  margin-left: 20px;
   position: relative;
   overflow: hidden;
   transition: color 300ms;
