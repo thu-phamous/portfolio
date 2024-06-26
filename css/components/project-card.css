@@ -33,7 +33,7 @@
 
 .project-card h3 {
   font-weight: 600;
-  font-size: 15px;
+  font-size: 18px;
   margin-top: 0px;
   margin-bottom: 5px;
   color: var(--primary-color);
@@ -58,9 +58,9 @@
 }
 
 .image-project-card {
-  width: 115px;
-  height: 67px;
+  width: 140px;
+  height: 92px;
   margin-top: 4px;
-  margin-right:20px;
+  margin-right:30px;
   border-radius: 5px;
 }

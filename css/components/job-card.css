@@ -5,11 +5,11 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
+/* Projekt IT und Design */
 .headline-card{
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 600;
-  color: var(--hover-color);
+  color: var(--secondary-color);
 }
 
 .job-card h4 {
